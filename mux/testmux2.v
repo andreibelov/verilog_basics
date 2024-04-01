@@ -12,7 +12,9 @@ module testmux2;
     reg[2:0] c;
     wire f;
     reg expected;
+
     mux2 myMux(.select(c[2]), .in0(c[0]), .in1(c[1]), .out(f));
+
     initial
         begin
             #0 c = 3'b000; expected = 1'b0;

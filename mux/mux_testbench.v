@@ -26,7 +26,7 @@ module mux_testbench;
             #(stimDelay) in0 = 1;
             #(stimDelay) sel = 0;
             #40                 // Run for some more time,
-                $stop;              // and stop.
+            $stop;              // and stop.
             $finish;            // Terminate simulation.
         end
 endmodule

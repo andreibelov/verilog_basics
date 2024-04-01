@@ -1,9 +1,10 @@
 /***************************************************
-* File: mux2_tb.v
+* File: testmux.v
 * Author: Andrei Belov
 * Class: EE 271
 * Module: testmux
-* Description: testbench for a simple 2 to 1
+* Description:
+*   testbench for a simple 2 to 1
 *   multiplexor circuit
 ****************************************************/
 
